@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./lib && tsc",
-    "prepare": "yarn build",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@types/react": "^16.9.11",
