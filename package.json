@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
-    "preintall": "yarn run build"
+    "prepublish": "yarn run build"
   },
   "peerDependencies": {
     "react": "^16.11.0",
