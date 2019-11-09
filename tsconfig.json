@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
+    "outDir": "./dist",
     "target": "es5",
-    "module": "commonjs",
+    "module": "ESNext",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": true,
-    "declaration": false,
+    "declaration": true,
     "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "jsx": "react",
     "typeRoots": [
       "index.d.ts",
