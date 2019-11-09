@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
-    "build-watch": "rollup -c -w"
+    "build-watch": "rollup -c -w",
+    "preintall": "yarn run build"
   },
   "peerDependencies": {
     "react": "^16.11.0",
