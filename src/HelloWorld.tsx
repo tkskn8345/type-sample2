@@ -1,11 +1,14 @@
 import * as React from 'react';
 
-export default class HelloWorld extends React.Component<any, any> {
-  renders() {
-    return (
-      <div style={{ color: this.props.color }}>
-        Hello world!
-      </div>
-    );
-  }
+interface Props {
+  text: string;
+}
+
+export const Hello2: React.FC < Props > = ({ text }) => {
+  return (
+    <>
+      <h1>こんにちは</h1>
+      <div>{text}</div>
+    </>
+  );
 }
