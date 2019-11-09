@@ -6,21 +6,23 @@
   "repository": "git@github.com:kntks/type-sample2.git",
   "author": "kntks <0180takeshi.aefd@gmail.com>",
   "license": "MIT",
+  "files":[
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
-    "build-watch": "rollup -c -w",
-    "prepublish": "yarn run build"
+    "build-watch": "rollup -c -w"
   },
   "peerDependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
     "rollup": "^1.26.3",
     "rollup-plugin-delete": "^1.1.0",
     "rollup-plugin-typescript2": "^0.25.2",
     "typescript": "^3.7.2"
-  },
-  "devDependencies": {
-    "@types/react": "^16.9.11",
-    "@types/react-dom": "^16.9.4"
   }
 }
