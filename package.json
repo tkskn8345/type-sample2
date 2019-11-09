@@ -7,7 +7,7 @@
   "author": "kntks <0180takeshi.aefd@gmail.com>",
   "license": "MIT",
   "files":[
-    "dist"
+    "dist/"
   ],
   "scripts": {
     "build": "rollup -c",
